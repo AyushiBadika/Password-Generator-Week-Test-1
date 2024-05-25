@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section {
+  width: 100%;
+  padding: 1rem;
+}
+h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.inputField,
+.lengthBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+.inputField input {
+  width: 100%;
+  height: 30px;
+}
+input {
+  padding: 0.4rem;
+}
+.lengthBox {
+  justify-content: space-between;
+}
+.typeOfPassword {
+  padding-left: 0.5rem;
+}
+.typeOfPassword > div input {
+  margin-right: 0.2rem;
+}
+button {
+  width: 100%;
+  height: 30px;
+  margin-top: 1rem;
+  background-color: #116bb4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
